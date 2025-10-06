@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Stack(
         children: [
-          // Full-screen background image
+          // background image
           Positioned.fill(
             child: Image.asset(
               'assets/bg.jpg',
