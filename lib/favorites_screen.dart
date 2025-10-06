@@ -7,7 +7,7 @@ class FavoritesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final favorites = RecipeApp.of(context)!.favoriteRecipes;
-
+    
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -73,8 +73,9 @@ class FavoritesScreen extends StatelessWidget {
                               },
                             ),
                           ),
-                        );
+                        );// added hero animation here
                       }).toList(),
+                      //added
                     ),
                   ),
           ),
